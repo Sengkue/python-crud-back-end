@@ -1,6 +1,6 @@
 # models/user.py
-from sqlalchemy import Column, Integer, String, DateTime, Boolean, Text
-from sqlalchemy.sql import func
+from sqlalchemy import Column, Integer, String, DateTime, Boolean, Text # type: ignore
+from sqlalchemy.sql import func # type: ignore
 from config.database import Base
 
 class User(Base):
