@@ -8,7 +8,7 @@ try:
     import uvicorn # type: ignore
     print("✅ Uvicorn imported successfully")
     
-    import sqlalchemy
+    import sqlalchemy 
     print("✅ SQLAlchemy imported successfully")
     
     import psycopg2
