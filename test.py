@@ -2,7 +2,7 @@
 # Simple test to verify basic installation
 
 try:
-    from fastapi import FastAPI
+    from fastapi import FastAPI # type: ignore
     print("✅ FastAPI imported successfully")
     
     import uvicorn
