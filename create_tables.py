@@ -19,7 +19,7 @@ def create_tables():
         print("✅ Database tables created successfully!")
         
         # Verify table creation
-        from sqlalchemy import inspect
+        from sqlalchemy import inspect # type: ignore
         inspector = inspect(engine)
         tables = inspector.get_table_names()
         print(f"📋 Created tables: {tables}")
