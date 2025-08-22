@@ -8,13 +8,13 @@ try:
     import uvicorn # type: ignore
     print("✅ Uvicorn imported successfully")
     
-    import sqlalchemy 
+    import sqlalchemy  # type: ignore
     print("✅ SQLAlchemy imported successfully")
     
-    import psycopg2
+    import psycopg2  # type: ignore
     print("✅ psycopg2 imported successfully")
     
-    from dotenv import load_dotenv
+    from dotenv import load_dotenv  # type: ignore
     print("✅ python-dotenv imported successfully")
     
     print("\n🎉 All basic dependencies are working!")
