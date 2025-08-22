@@ -1,7 +1,7 @@
 # test_api.py
 # Test API calls to debug 422 errors
 
-import requests
+import requests # type: ignore
 import json
 
 def test_api_endpoints():
