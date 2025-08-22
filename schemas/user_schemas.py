@@ -1,5 +1,5 @@
 # schemas/user_schemas.py
-from pydantic import BaseModel, validator, Field
+from pydantic import BaseModel, validator, Field # type: ignore
 from typing import Optional
 from datetime import datetime
 import re
