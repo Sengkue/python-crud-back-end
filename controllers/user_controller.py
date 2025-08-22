@@ -1,6 +1,6 @@
 # controllers/user_controller.py
 from sqlalchemy.orm import Session # type: ignore
-from sqlalchemy.exc import IntegrityError
+from sqlalchemy.exc import IntegrityError # type: ignore
 from models.user import User
 from schemas.user_schemas import UserCreate, UserUpdate
 from typing import List, Optional
