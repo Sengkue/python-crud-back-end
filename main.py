@@ -1,6 +1,6 @@
 # main.py
 from fastapi import FastAPI, HTTPException # type: ignore
-from fastapi.middleware.cors import CORSMiddleware
+from fastapi.middleware.cors import CORSMiddleware # type: ignore
 from contextlib import asynccontextmanager
 from config.database import engine, Base
 from routes.user_routes import router as user_router
