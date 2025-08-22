@@ -5,7 +5,7 @@ try:
     from fastapi import FastAPI # type: ignore
     print("✅ FastAPI imported successfully")
     
-    import uvicorn
+    import uvicorn # type: ignore
     print("✅ Uvicorn imported successfully")
     
     import sqlalchemy
