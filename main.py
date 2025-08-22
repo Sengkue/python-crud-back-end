@@ -1,10 +1,10 @@
 # main.py
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException # type: ignore
 from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 from config.database import engine, Base
 from routes.user_routes import router as user_router
-import uvicorn
+import uvicorn # type: ignore
 
 # Create tables
 def create_tables():
