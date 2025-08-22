@@ -1,5 +1,5 @@
 # routes/user_routes.py
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, Depends, HTTPException, status # type: ignore
 from sqlalchemy.orm import Session # pyright: ignore[reportMissingImports]
 from typing import List
 from config.database import get_db
